@@ -120,7 +120,7 @@ filtered = df[df["Tahun"].isin(tahun_sel) & df["Kategori"].isin(kat_sel)]
 # ─── HEADER ──────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="main-header">
-    <h1>🛒 Dashboard Analisis Penjualan Indonesia</h1>
+    <h1>🛒 Dashboard Analisis pendapatan dan transaksi</h1>
     <p>Exploratory Data Analysis · Capstone Project Data Science 2024–2026</p>
 </div>
 """, unsafe_allow_html=True)
