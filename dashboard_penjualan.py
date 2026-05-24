@@ -81,7 +81,7 @@ st.markdown("""
 # ─── LOAD & CLEAN DATA ───────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data_bersih__Dataset_Penjualan_Full_Indonesia.csv")
+    df = pd.read_csv("data_bersih_Dataset_Penjualan_Full_Indonesia.csv")
 
     def parse_rp(s):
         return float(str(s).replace("Rp", "").replace(".", "").replace(",", "."))
